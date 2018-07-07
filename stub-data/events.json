@@ -1,0 +1,124 @@
+{
+    "events": [
+        {
+        "title": "Sed ut perspiciatis unde",
+        "genre": "Tech",
+        "audience": "Adults",
+        "shortinfo": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "description": "Quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
+        "image":"https://placeimg.com/640/480/tech",
+        "thumbnail": "https://placeimg.com/150/150/tech",
+        "date": "1/8-2018"
+        }, 
+        {
+        "title": "Nemo enim ipsam voluptatem ",
+        "genre": "Tech",
+        "audience": "Adults",
+        "shortinfo": "aspernatur aut odit aut fugit, sed Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+        "description": "Quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
+        "image":"https://placeimg.com/640/480/tech",
+        "thumbnail": "https://placeimg.com/150/150/tech",
+        "date": "5/8-2018"
+        },
+        {
+        "title": "Vitae ultricies leo",
+        "genre": "Photo",
+        "audience": "Adults",
+        "shortinfo": "integer malesuada nunc vel risus. Neque egestas congue quisque egestas",
+        "description": "Quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
+        "image":"https://placeimg.com/640/480/animals",
+        "thumbnail": "https://placeimg.com/150/150/animals",
+        "date": "30/9-2018"
+        }, 
+        {
+        "title": "Feugiat scelerisque varius morbi",
+        "genre": "Photo",
+        "audience": "Adults",
+        "shortinfo": "Pulvinar etiam non quam lacus suspendisse faucibus interdum",
+        "description": "Quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
+        "image":"https://placeimg.com/640/480/nature",
+        "thumbnail": "https://placeimg.com/150/150/nature",
+        "date": "11/11-2018"
+        },
+        {
+        "title": "Fames ac turpis egestas maecenas",
+        "genre": "Architecture",
+        "audience": "Adults",
+        "shortinfo": "Consequat id porta nibh venenatis. Pretium aenean pharetra magna ac placerat vestibulum.",
+        "description": "Quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
+        "image":"https://placeimg.com/640/480/architecture",
+        "thumbnail": "https://placeimg.com/150/150/tech",
+        "date": "20/11-2018"
+        }, 
+        {
+        "title": "Nemo enim ipsam voluptatem ",
+        "genre": "Architecture",
+        "audience": "Adults",
+        "shortinfo": "aspernatur aut odit aut fugit, sed Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+        "description": "Quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
+        "image":"https://placeimg.com/640/480/architecture",
+        "thumbnail": "https://placeimg.com/150/150/architecture",
+        "date": "23/12-2018"
+        },
+        {
+        "title": "Massa sapien faucibus et ",
+        "genre": "Tech",
+        "audience": "Kids",
+        "shortinfo": "Ut sem viverra aliquet eget sit amet. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel",
+        "description": "Quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
+        "image":"https://placeimg.com/640/480/tech",
+        "thumbnail": "https://placeimg.com/150/150/tech",
+        "date": "1/8-2018"
+        }, 
+        {
+        "title": "Eget egestas purus viverra accumsan",
+        "genre": "Tech",
+        "audience": "Kids",
+        "shortinfo": "Lectus sit amet est placerat in egestas erat imperdiet. Augue interdum velit euismod in",
+        "description": "Quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
+        "image":"https://placeimg.com/640/480/tech",
+        "thumbnail": "https://placeimg.com/150/150/tech",
+        "date": "5/8-2018"
+        },
+        {
+        "title": "Porta nibh venenatis cras sed",
+        "genre": "Tech",
+        "audience": "Kids",
+        "shortinfo": "Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Varius morbi enim nunc faucibus",
+        "description": "Quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
+        "image":"https://placeimg.com/640/480/tech",
+        "thumbnail": "https://placeimg.com/150/150/tech",
+        "date": "30/9-2018"
+        }, 
+        {
+        "title": "Ac tortor dignissim risus viverra",
+        "genre": "Animals",
+        "audience": "Kids",
+        "shortinfo": "Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo",
+        "description": "Quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
+        "image":"https://placeimg.com/640/480/animals",
+        "thumbnail": "https://placeimg.com/150/150/animals",
+        "date": "11/11-2018"
+        },
+        {
+        "title": "Et odio pellentesque diam",
+        "genre": "Animals",
+        "audience": "Kids",
+        "shortinfo": " Mattis vulputate enim nulla aliquet porttitor lacus luctus. Consequat id porta nibh venenatis. Pretium aenean pharetra magna ac placerat vestibulum.",
+        "description": "Quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
+        "image":"https://placeimg.com/640/480/animals",
+        "thumbnail": "https://placeimg.com/150/150/animals",
+        "date": "20/11-2018"
+        }, 
+        {
+        "title": "Quisque id diam vel quam elementum",
+        "genre": "Animals",
+        "audience": "Kids",
+        "shortinfo": "Vel elit scelerisque mauris pellentesque pulvinar pellentesque. Id volutpat lacus laoreet non curabitur gravida arcu ac tortor",
+        "description": "Quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
+        "image":"https://placeimg.com/640/480/animals",
+        "thumbnail": "https://placeimg.com/150/150/animals",
+        "date": "23/12-2018"
+        }
+    ]
+}
