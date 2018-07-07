@@ -15,7 +15,8 @@ module.exports = {
         filename:'bundle.js'
     },
     module: {
-        rules: [{
+        rules: [
+            {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 loader: 'babel-loader',
@@ -24,6 +25,10 @@ module.exports = {
                     plugins: ['transform-class-properties']
                 },
             },
+            {
+                test: /\.scss$/,
+                loaders: ['style-loader', 'css-loader', 'sass-loader']
+            }
         ]
     },
   };
