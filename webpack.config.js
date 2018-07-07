@@ -10,9 +10,14 @@ module.exports = {
     entry: [
         path.join(__dirname, 'components')
     ],
+    devtool: 'source-map',//source map should be unavailable in production as it enlarges the footprint drastically but debugging is easier - perfect for development
     output: {
         path: PATHS.build,
+        publicPath: "/dist/",
         filename:'bundle.js'
+    },
+    devServer: {
+        contentBase: path.join(__dirname, '/')
     },
     module: {
         rules: [
