@@ -1,8 +1,17 @@
+html, 
 body {
-    background:cyan;
+    height: 100%;
+}
+body {
+  background:#eaeaea;
+  position: relative;
 
-    #signup {
-        background:blue;
-        padding:30px;
-    }
+  > * {
+    box-sizing: border-box;
+  }
+
+  #signup {
+    background:#fff;
+    padding:30px;    
+  }
 }

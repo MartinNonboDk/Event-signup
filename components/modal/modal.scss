@@ -1,0 +1,67 @@
+.modal {
+  position:fixed;
+  top:50%;
+  left:50%;
+  animation: animateIn ease-in-out 1s;
+  animation-duration:1s;
+  animation-fill-mode: both;
+  z-index:2; 
+  width:80%;
+  max-width:700px;
+  max-height:80vh;
+  height: auto; 
+  background:#eaeaea;
+  box-shadow:0px 3px 5px rgba(0,0,0,0.4);
+  border-radius:15px;
+  padding:20px;
+
+  h2 {
+    text-align:center;
+  }
+
+  .close {
+    position:absolute;
+    top:-20px;
+    right:-20px;
+    width:40px;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    border-radius:50%;
+    background:red;
+    color:white;
+    font-weight:bold;
+    border:1px solid white;
+  }
+
+  &-content {
+    width:90%;
+    margin:0 auto;
+  }
+}
+
+.overlay{
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  background:rgba(0,0,0,0.3);
+  z-index:1;
+}
+
+@keyframes animateIn {
+  //translateZ USE GPU for animation, force hardware acceleration
+  0% {
+    transform:translate(-50%, -200%) translateZ(0);
+  }
+  60% {
+    transform:translate(-50%,-49%) translateZ(0);
+  }
+  80% {
+    transform:translate(-50%,-51%) translateZ(0);
+  }
+  100% {
+    transform:translate(-50%,-50%) translateZ(0);
+  }
+}

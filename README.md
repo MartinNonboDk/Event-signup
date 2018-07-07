@@ -1,8 +1,9 @@
 Event Signup README
 
 **********************************************************
-A small demo signup website that utilizes npm and webpack
+A small react demo signup website that utilizes npm and webpack
 to build and run.
+Scss for styling.
 
 Just open up a terminal or command prompt and run:
 "npm run build" to build the the site
