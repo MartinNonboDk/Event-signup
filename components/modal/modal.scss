@@ -32,6 +32,10 @@
     color:white;
     font-weight:bold;
     border:1px solid white;
+
+    &:hover {
+      cursor:pointer;
+    }
   }
 
   &-content {

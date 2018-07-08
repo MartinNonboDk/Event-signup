@@ -2,6 +2,15 @@
   text-align:center;
 }
 
+.events-filter {
+  text-align:center;
+
+  > * {
+    display:inline-block;
+    margin:10px;
+  }
+}
+
 .events-wrapper {
   background:#f3f3f3;
   display:flex;

@@ -4,7 +4,7 @@ import EventsContainer from "./events-container/events-container";
 const backupData = require('../stub-data/events.json');
 require('../styles/index.scss');
 
-fetch('https://api.myjson.com/bins/x5612')
+fetch('https://api.myjson.com/bins/x7re6')
   .then(response => {
     // I don't trust the json host website - so provide similar backup data for demo
     // It just looks more nice with and actual data fetch
