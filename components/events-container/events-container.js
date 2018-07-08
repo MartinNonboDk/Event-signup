@@ -10,13 +10,12 @@ export default class EventsContainer extends React.Component {
     this.state = {
       eventClicked: undefined
     }
-
+    //Binding functions to this so we can parse them to child components
     this.closeModal = this.closeModal.bind(this);
     this.eventClicked = this.eventClicked.bind(this);
   }
 
   eventClicked = (that) => {
-    console.log("Clicked on this", that);
     this.setState({
       eventClicked: that
     })
@@ -33,6 +32,14 @@ export default class EventsContainer extends React.Component {
     const {
       events
     } = this.props;
+
+    //Getting different audiences for filtering
+    const audienceTypes = [];
+    Object.keys(events).map(key => {
+      if(!audienceTypes.includes(events[key].audience)) {
+        audienceTypes.push(events[key].audience);
+      }    
+    });
 
     return (
       <React.Fragment>
