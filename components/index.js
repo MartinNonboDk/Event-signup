@@ -7,7 +7,7 @@ require('../styles/index.scss');
 fetch('https://api.myjson.com/bins/x7re6')
   .then(response => {
     // I don't trust the json host website - so provide similar backup data for demo
-    // It just looks more nice with and actual data fetch
+    // It just looks nicer with an actual data fetch
     return response.ok ? response.json() : backupData;       
   })
   .then(events =>  {

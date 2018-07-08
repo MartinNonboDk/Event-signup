@@ -5,6 +5,7 @@ export default class Signup extends React.Component {
   render() {
 
     return (
+      //Static signup
       <div className="signup">
         <h4>Sign up to the event</h4>
         <p>Input your details below to signup for the event, you will (should) recieve an email with a confirmation link to complete the signup</p>

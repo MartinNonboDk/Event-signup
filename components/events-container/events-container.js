@@ -18,6 +18,7 @@ export default class EventsContainer extends React.Component {
   }
 
   eventClicked = (that) => {
+    //Recieves the properties from the selected content piece and stores them in state
     this.setState({
       eventClicked: that
     })
@@ -33,6 +34,8 @@ export default class EventsContainer extends React.Component {
     //Set state to be all events from the entire original list that matches the choosen filter
     this.setState({
       resetFilter: this.state.resetFilter ? !this.state.resetFilter : this.state.resetFilter, 
+
+      //We filter our events to match the choosen filter and update state
       events: this.props.events.filter(event => event.audience === choosenFilter),
       optionsValue: choosenFilter
     })
@@ -53,8 +56,8 @@ export default class EventsContainer extends React.Component {
       resetFilter
     } = this.state;
 
-    //Getting different audiences for filtering
-    //Using props.events (originalprops), because original ALL events is stored in props
+    //Getting unique audience properties for filtering
+    //Using props.events (originalprops), because original ALL events is stored in and from props
     const audienceTypes = [];
     Object.keys(originalEvents).map(key => {
       if (!audienceTypes.includes(originalEvents[key].audience)) {

@@ -7,7 +7,7 @@ Scss for styling.
 
 Just open up a terminal or command prompt and run:
 "npm run build" to build the the site
-"npm run dev" to fire up a local server with live update
+"npm run dev" to fire up a local server with hot reload and automatic build on save
 
 ***********************************
 **          DISCLAIMER           **

@@ -6,6 +6,8 @@ p.label.signup {
 .signup {
   width:40%;
   display:inline-block;
+  padding:15px;
+  box-sizing: border-box;
 
   h4 {
     margin-top:0px;
@@ -13,5 +15,9 @@ p.label.signup {
 }
 
 button {
-  padding:10px 20px;
+  padding:5px 20px;
+
+  &:hover {
+      cursor:pointer;
+  }
 }
