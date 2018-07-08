@@ -71,7 +71,7 @@ export default class EventsContainer extends React.Component {
         </header>
         <div className="events-filter">
           <p>Filter by age:</p>
-          <select value={this.state.resetFilter ? "Please choose..." : this.state.optionsValue} onChange={() => this.filterEvents(event.target.value)}>
+          <select value={this.state.resetFilter ? "Please choose..." : this.state.optionsValue} onChange={(event) => this.filterEvents(event.target.value)}>
             <Filteroptions filters={audienceTypes} reset={resetFilter} filterEvents={this.filterEvents}/>
           </select>
           <button onClick={() => this.clearFilter()}>Clear filters!</button>
